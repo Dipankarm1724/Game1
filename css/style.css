@@ -16,19 +16,13 @@ body {
   font-family: 'Press Start 2P', sans-serif;
   color: #eee;
   background-color: #222;
-  /* width: 100vw; */
-
-  /* background-color: #60b347; */
 }
 
-/* LAYOUT */
 header {
   position: relative;
   height: 35vh;
   border-bottom: 7px solid #eee;
 }
-
-
 
 main {
   height: 60vh;
@@ -51,7 +45,6 @@ main {
   font-size: 2rem;
 }
 
-/* ELEMENTS STYLE */
 h1 {
   font-size: 4rem;
   text-align: center;
@@ -77,23 +70,11 @@ h1 {
 
 .between {
   font-size: 1.4rem;
-  /* position: absolute; */
   text-align: center;
-  /* top: 4rem;
-  right: 2rem; */
 }
 
-/* .head-item {
-  display: flex;
-  flex-wrap: wrap;
-  font-size: 30px;
-  text-align: center;
-} */
 
 .again {
-  /* position: absolute; */
-  /* top: 2rem;
-  left: 2rem; */
   margin: 10px 0px 20px 15px;
 }
 
@@ -153,12 +134,6 @@ footer {
   .right {
     margin-top: 5%;
   }
-
-  /* .flex-item-right,
-  .flex-item-left {
-    flex: 100%;
-    flex-direction: column;
-  } */
 
   .head-item {
     text-align: center;

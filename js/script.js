@@ -1,6 +1,6 @@
 'use strict';
 
-let secretNumber = Math.floor(Math.random() * 20) + 1;
+let secretNumber = Math.trunc(Math.random() * 20) + 1;
 let score = 20;
 let highscore = 0;
 const winSound = document.getElementById("sound");
@@ -52,7 +52,7 @@ document.querySelector('.check').addEventListener("click", function () {
 document.querySelector('.again').addEventListener("click", function () {
     score = 20;
     document.querySelector('.score').innerHTML = score;
-    secretNumber = Math.floor(Math.random() * 20) + 1;
+    secretNumber = Math.trunc(Math.random() * 20) + 1;
     displayMessage('Start guessing...')
     document.querySelector('.number').textContent = "?";
     document.querySelector('.guess').value = '';
